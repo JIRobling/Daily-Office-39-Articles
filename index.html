@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Thirty-Nine Articles & Daily Office</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="inner">
+      <h1>The Thirty-Nine Articles of Religion — American edition</h1>
+      <p class="subtitle">Searchable commentary, inline footnotes, scholarship links, and the Daily Office.</p>
+    </div>
+  </header>
+
+  <main class="inner">
+    <section class="controls card">
+      <label>🔎 Search: <input id="searchInput" placeholder="Search titles, text, commentary, footnotes..." /></label>
+      <label><input type="checkbox" id="toggleScripture" checked /> Show Scripture refs</label>
+      <label><input type="checkbox" id="toggleNotes" checked /> Show Historical notes</label>
+      <label><input type="checkbox" id="toggleCommentary" checked /> Show Commentary</label>
+      <div class="actions">
+        <button id="homeBtn">Home</button>
+        <button id="printBtn">Print</button>
+      </div>
+    </section>
+
+    <nav class="toc card" id="toc">
+      <h2>Contents</h2>
+      <ol id="tocList"></ol>
+    </nav>
+
+    <section id="contentArea" class="card-list"></section>
+
+    <footer class="card footer">
+      <p class="muted">Edit content files in <code>content/articles</code> on your web host (e.g., GitHub Pages). Use [n] inside commentary to point to footnote number n.</p>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

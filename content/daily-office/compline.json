@@ -1,0 +1,21 @@
+{
+  "slug": "compline",
+  "title": "Compline",
+  "opening": {
+    "sentences": [
+      "Keep watch, dear Lord, with those who work, or watch, or weep this night..."
+    ]
+  },
+  "psalms": {
+    "description": "Psalms for Compline (short set)"
+  },
+  "canticle": {
+    "default": "Nunc Dimittis (Luke 2:29-32)"
+  },
+  "prayers": {
+    "lordPrayer": true,
+    "collects": [
+      "Compline Collect (placeholder)"
+    ]
+  }
+}

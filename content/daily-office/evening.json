@@ -1,0 +1,40 @@
+{
+  "slug": "evening",
+  "title": "Evening Prayer",
+  "opening": {
+    "sentences": [
+      "O God, make speed to save us; O Lord make haste to help us."
+    ]
+  },
+  "invitatory": {
+    "call": "O God make speed to save us.",
+    "response": "O Lord make haste to help us.",
+    "canticles": [
+      "Magnificat (Luke 1:46-55)"
+    ]
+  },
+  "psalms": {
+    "description": "Psalms appointed for evening."
+  },
+  "readings": [
+    {
+      "label": "First Reading",
+      "type": "OT",
+      "lectionaryKey": "evening-ot"
+    },
+    {
+      "label": "Second Reading",
+      "type": "NT",
+      "lectionaryKey": "evening-nt"
+    }
+  ],
+  "canticle": {
+    "default": "Magnificat (Luke 1:46-55)"
+  },
+  "prayers": {
+    "lordPrayer": true,
+    "collects": [
+      "Collect for the Evening (placeholder)"
+    ]
+  }
+}

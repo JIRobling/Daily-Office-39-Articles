@@ -1,0 +1,34 @@
+:root{
+  --bg:#f7f6f3;
+  --card:#ffffff;
+  --muted:#666;
+  --accent:#0b3b2e;
+  --maxw:980px;
+  --serif: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:var(--sans);background:var(--bg);color:#111}
+.inner{max-width:var(--maxw);margin:20px auto;padding:0 16px}
+.site-header{background:linear-gradient(180deg,#fff #eef7f2);border-bottom:1px solid #e3e3e1;padding:18px 0}
+.site-header h1{margin:0;font-family:var(--serif);font-size:22px;color:var(--accent)}
+.subtitle{margin:6px 0 0 0;color:var(--muted);font-size:13px}
+.card{background:var(--card);padding:14px;border-radius:8px;box-shadow:0 2px 8px rgba(20,30,20,0.04);margin-bottom:14px}
+.controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.controls input[type="text"], .controls input[type="search"]{padding:6px 8px;border-radius:6px;border:1px solid #ddd}
+.toc h2{margin:0 0 8px 0;font-size:16px}
+.toc ol{margin:0;padding-left:18px}
+.card-list{display:flex;flex-direction:column;gap:12px}
+.article{padding:18px;border-left:4px solid #f0f0f0}
+.article h3{margin:0;font-family:var(--serif);color:var(--accent)}
+.article .ref{color:var(--muted);font-size:13px;margin-top:6px}
+.article .scripture{margin-top:8px;font-size:13px;color:#284b3f}
+.article .notes{margin-top:8px;font-size:13px;color:#4b3f28;background:#fbf8f6;padding:10px;border-radius:6px}
+.article p{font-family:var(--serif);line-height:1.6;margin:12px 0}
+.article .commentary{margin-top:10px;font-size:15px;color:#222;border-left:3px solid #e9e4df;padding-left:12px}
+.superspan{font-size:0.9em;vertical-align:super}
+.muted{color:var(--muted);font-size:13px}
+.actions{margin-left:auto;display:flex;gap:8px}
+.actions button{padding:6px 10px;border-radius:6px;border:0;background:var(--accent);color:white;cursor:pointer}
+a{color:var(--accent)}
+@media print{.controls,.toc,.footer{display:none}}

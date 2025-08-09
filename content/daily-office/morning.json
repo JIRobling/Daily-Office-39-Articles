@@ -1,0 +1,57 @@
+{
+  "slug": "morning",
+  "title": "Morning Prayer",
+  "opening": {
+    "sentences": [
+      "The Lord is in his holy temple; let all the earth keep silence before him. (Habakkuk 2:20)"
+    ]
+  },
+  "invitatory": {
+    "call": "O Lord, open our lips.",
+    "response": "And our mouth shall proclaim your praise.",
+    "canticles": [
+      "Venite (Psalm 95)",
+      "Jubilate (Psalm 100)"
+    ]
+  },
+  "psalms": {
+    "description": "Psalms appointed for the day.",
+    "slots": [
+      {
+        "label": "Psalm 1",
+        "ref": "Psalm 1"
+      },
+      {
+        "label": "Psalm 2",
+        "ref": "Psalm 2"
+      }
+    ]
+  },
+  "readings": [
+    {
+      "label": "Old Testament",
+      "type": "OT",
+      "lectionaryKey": "morning-ot"
+    },
+    {
+      "label": "New Testament",
+      "type": "NT",
+      "lectionaryKey": "morning-nt"
+    }
+  ],
+  "canticle": {
+    "default": "Benedictus (Luke 1:68-79)",
+    "alternatives": [
+      "Canticle 9",
+      "Canticle 16"
+    ]
+  },
+  "creed": "Apostles' Creed",
+  "prayers": {
+    "lordPrayer": true,
+    "collects": [
+      "Collect for the Day (placeholder)",
+      "Collect for Peace (placeholder)"
+    ]
+  }
+}

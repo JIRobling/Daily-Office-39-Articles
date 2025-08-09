@@ -1,0 +1,29 @@
+{
+  "slug": "noonday",
+  "title": "Noonday Prayer",
+  "opening": {
+    "sentences": [
+      "O God, make speed to save us; O Lord make haste to help us."
+    ]
+  },
+  "invitatory": {
+    "call": "Glory be to the Father, and to the Son, and to the Holy Ghost.",
+    "response": "As it was in the beginning, is now, and ever shall be."
+  },
+  "psalms": {
+    "description": "Short psalmody for midday."
+  },
+  "readings": [
+    {
+      "label": "Reading",
+      "type": "OT",
+      "lectionaryKey": "noonday-ot"
+    }
+  ],
+  "prayers": {
+    "lordPrayer": true,
+    "collects": [
+      "Collect for Midday (placeholder)"
+    ]
+  }
+}
